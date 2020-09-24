@@ -1,5 +1,5 @@
 # osm_completeness
-This series of notebooks builds a model for predicting OSM building footprint area using random forest regression.
+This series of notebooks uses a random forest regression model with google earth engine and python to predict OSM building mapping in afghanistan. notebooks can be adapted for use in any country. built by new light technologies for the world bank.
 
 
 1. First, an [Observable notebook](https://observablehq.com/@jobelanger/osm-training-set-creation-nepal-example) is used to identify those areas of a given region that already have complete OSM building mapping. These areas are used as a training set for building the regression model, imported in step 2 (Train OSM)
